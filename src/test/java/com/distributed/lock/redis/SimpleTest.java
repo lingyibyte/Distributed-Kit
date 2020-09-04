@@ -1,13 +1,9 @@
 package com.distributed.lock.redis;
 
 import com.distributed.lock.Callback;
-import org.junit.Test;
 import redis.clients.jedis.JedisPool;
 
-import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by sunyujia@aliyun.com on 2016/2/24.
